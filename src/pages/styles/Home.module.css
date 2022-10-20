@@ -1,8 +1,16 @@
-.main {
-    width: 85%;
-    height: 80vh;
-    margin: 0 auto;
+.container {
+    width: 100vw;
+    height: 100vh;
     display: flex;
+    flex-direction: column;
+}
+
+.main {
+    margin-top: 1%;
+    width: 85%;
+    height: 80%;
+    display: flex;
+    align-self: center;
     justify-content: space-between;
     align-items: center;
 }
@@ -22,7 +30,7 @@
 }
 
 .main .right {
-    height: 90%;
+    height: 80%;
     border-radius: 1vw;
     justify-content: center;
     margin-right: 5%;
@@ -81,14 +89,14 @@
     height: 8%;
     font-size: .9vw;
     border-radius: .5vw;
-    background: rgba(0, 0, 0, .1);
+    background: rgb(28, 81, 255, 1);
     cursor: pointer;
     transition: all .5s ease;
+    color: white;
 }
 
 .main .left button:hover {
     transform: scale(1.05);
     border: .1vw solid rgba(0, 0, 0, .4);
-    background: rgba(0, 0, 0, .4);
-    color: white;
+    background: rgb(28, 81, 255, .8);
 }
