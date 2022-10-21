@@ -29,7 +29,7 @@ export default function Home() {
     }
     setEmail('')
     inputEl.current.value = '';
-    setMessage('Parabéns! 🎉 você se inscreveu com sucesso em nossa NewsLetter.')
+    setMessage('Parabéns! 🎉 você se inscreveu com sucesso em nossa NewsLetter.\nVeja seu email para ver nossa mensagem de boas vindas!')
   };
 
 
