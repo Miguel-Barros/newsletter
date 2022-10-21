@@ -21,7 +21,7 @@ export default function Home() {
 
   const subscribe = async () => {
     try {
-      await axios.post('', { email })
+      await axios.post('./api/newsletter', { email })
       setResponse('Sucess')
       return alert(response)
     } catch (error) {
