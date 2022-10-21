@@ -40,4 +40,10 @@
     font-family: 'Mulish';
     color: #fff;
     font-size: 1.2vw;
+    cursor: pointer;
+    transition: all .5s ease;
+}
+
+.header nav ul li:hover {
+  opacity: .7;
 }
